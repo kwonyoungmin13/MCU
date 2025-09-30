@@ -18,7 +18,6 @@ static void reverse(char* str, int len) {
 	}
 }
 
-// 직접 구현한 my_itoa 함수
 int my_itoa(int value, char* buffer) {
 	int i = 0;
 	
@@ -39,4 +38,5 @@ int my_itoa(int value, char* buffer) {
 	reverse(buffer, i);
 	
 	return i;
+
 }
